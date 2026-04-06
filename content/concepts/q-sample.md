@@ -9,11 +9,11 @@ sources: [QuantumInferenceonBayesianNetworks.pdf]
 
 # Q-Sample
 
-The q-sample of a joint distribution P(x_1, ..., x_n) over n binary variables is the n-qubit pure state:
+The q-sample of a joint distribution $P(x_1, \ldots, x_n)$ over $n$ binary variables is the $n$-qubit pure state:
 
-|psi_P> = sum_{x_1,...,x_n} sqrt(P(x_1,...,x_n)) |x_1 ... x_n>
+$$|\psi_P\rangle = \sum_{x_1, \ldots, x_n} \sqrt{P(x_1, \ldots, x_n)}\, |x_1 \cdots x_n\rangle$$
 
-Measuring all qubits yields a classical sample from P. Measuring a subset of qubits yields a sample from the corresponding marginal distribution.
+Measuring all qubits yields a classical sample from $P$. Measuring a subset of qubits yields a sample from the corresponding marginal distribution.
 
 ## Properties
 
@@ -27,7 +27,7 @@ Whether a representation satisfying all three properties exists is an open quest
 
 ## Efficient Preparation on Bayesian Networks
 
-For a general distribution, preparing the q-sample requires O(2^n) gates. For a [[Bayesian Networks|Bayesian network]] with max indegree m, the graph structure allows preparation in O(n 2^m) gates — each node's conditional probability table maps to a uniformly controlled rotation on at most m control qubits.
+For a general distribution, preparing the q-sample requires $\mathcal{O}(2^n)$ gates. For a [[Bayesian Networks|Bayesian network]] with max indegree $m$, the graph structure allows preparation in $\mathcal{O}(n \cdot 2^m)$ gates — each node's conditional probability table maps to a uniformly controlled rotation on at most $m$ control qubits.
 
 ## See Also
 
