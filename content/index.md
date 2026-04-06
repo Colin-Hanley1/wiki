@@ -11,6 +11,10 @@ updated: 2026-04-06
 ### Quantum Computing
 - [[Quantum Inference on Bayesian Networks]] — Square-root quantum speedup for approximate inference on Bayesian networks (Low, Yoder, Chuang 2014).
 
+### Deep Learning
+- [[Attention Is All You Need]] — Introduces the Transformer; self-attention replaces recurrence for sequence transduction (Vaswani et al., 2017).
+- [[Instant Neural Graphics Primitives with a Multiresolution Hash Encoding]] — Trainable hash table encoding for instant NeRF training (Müller et al., SIGGRAPH 2022).
+
 ### MATH 451∕551 (Mathematical Statistics)
 - [[MATH 451∕551 - Homework 1]] — Method of moments, joint PMFs, marginals, independence.
 - [[MATH 451∕551 - Homework 2]] — MLE (Poisson, geometric, uniform), invariance property, bias, MSE, efficiency.
@@ -43,6 +47,9 @@ updated: 2026-04-06
 - [[MIT]] — Massachusetts Institute of Technology.
 - [[Lukas Bundrock]] — Mathematician, University of Alabama. Instructor for MATH 485∕585.
 - [[University of Alabama]] — Public research university; Department of Mathematics.
+- [[Ashish Vaswani]] — Co-first author of "Attention Is All You Need"; Google Brain.
+- [[Google Brain]] — Google's deep learning research team (now part of Google DeepMind).
+- [[NVIDIA]] — GPU manufacturer and neural rendering research.
 
 ## Concepts
 
@@ -66,6 +73,13 @@ updated: 2026-04-06
 - [[Stationary Distributions]] — Equilibrium distributions $\vec{\pi}P = \vec{\pi}$; existence, uniqueness, long-run fractions.
 - [[Recurrence and Transience]] — Return probabilities, hitting times, chain decomposition, absorption.
 - [[Poisson Process]] — Continuous-time counting process; exponential inter-arrivals, merging, thinning, races.
+
+### Deep Learning & Neural Rendering
+- [[Transformer]] — Encoder-decoder architecture based on self-attention; foundation of modern LLMs.
+- [[Self-Attention]] — Attention mechanism relating positions within a single sequence; $O(1)$ path length.
+- [[Multi-Head Attention]] — Parallel attention heads over different representation subspaces.
+- [[Multiresolution Hash Encoding]] — Trainable hash tables at multiple resolutions for fast neural graphics.
+- [[NeRF]] — Neural radiance fields for 3D scene reconstruction from 2D images.
 
 ### Complex Analysis
 - [[Complex Numbers]] — Field $\mathbb{C}$: arithmetic, absolute value, conjugate, polar form, de Moivre's formula.

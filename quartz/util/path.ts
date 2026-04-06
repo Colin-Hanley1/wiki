@@ -248,6 +248,8 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
           .replace(/^-|-$/g, "")
       const targetNorm = normalize(targetCanonical)
       const matchingFileNames = opts.allSlugs.filter((slug) => {
+        // skip tag and folder index pages to avoid false collisions
+        if (slug.startsWith("tags/")) return false
         const parts = slug.split("/")
         const fileName = parts.at(-1)
         return fileName !== undefined && normalize(fileName) === targetNorm

@@ -6,7 +6,7 @@ updated: 2026-04-06
 
 # Overview
 
-This wiki covers topics in quantum computing, probabilistic inference, mathematical statistics, and complex analysis.
+This wiki covers topics in quantum computing, probabilistic inference, mathematical statistics, complex analysis, and deep learning.
 
 ## Current Focus
 
@@ -40,6 +40,13 @@ The stochastic processes material builds directly on the probability foundations
 6. **Series:** [[Power Series (Complex Analysis)|Power series]], Taylor and Laurent expansions — holomorphic functions are analytic.
 
 The course emphasizes computation and worked examples over formal proof. Contour integration techniques connect to real analysis (evaluating improper integrals) and, more distantly, to the quantum computing work (path integrals, characteristic functions in probability).
+
+**Deep learning architectures.** Two foundational papers:
+
+1. **[[Attention Is All You Need]]** (Vaswani et al., 2017) introduced the [[Transformer]] — an encoder-decoder architecture built entirely on [[Self-Attention]] and [[Multi-Head Attention]], replacing recurrence and convolution. The Transformer is now the backbone of LLMs (GPT, BERT, LLaMA), vision models (ViT), and protein structure prediction (AlphaFold).
+2. **[[Instant Neural Graphics Primitives with a Multiresolution Hash Encoding]]** (Müller et al., SIGGRAPH 2022) introduced trainable hash table encodings that reduce [[NeRF]] training from hours to seconds. The [[Multiresolution Hash Encoding]] replaces the Transformer's sinusoidal positional encoding with a spatially adaptive, learned alternative for neural rendering.
+
+These connect to the quantum computing work via shared mathematical foundations: attention mechanisms are weighted sums (cf. [[Bayesian Networks]] marginalization), and the hash encoding's multiresolution structure parallels the multi-scale decompositions in signal processing.
 
 ## Open Questions
 

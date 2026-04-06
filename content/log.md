@@ -7,6 +7,9 @@ last-entry: 2026-04-06
 
 # Knowledge Log
 
+## [2026-04-06] ingest | Attention Is All You Need + Multiresolution Hash Encoding
+Ingested two deep learning papers. Created 2 source pages, 3 entity pages (Ashish Vaswani, Google Brain, NVIDIA), and 5 concept pages (Transformer, Self-Attention, Multi-Head Attention, Multiresolution Hash Encoding, NeRF). Updated index and overview.
+
 ## [2026-04-06] ingest | MATH 457∕557 Homeworks 1–9
 Ingested 9 homework PDFs (HW1–HW9) for Applied Stochastic Processes. Created 9 source pages and 4 concept pages (Markov Chains, Stationary Distributions, Recurrence and Transience, Poisson Process). Updated index and overview.
 
