@@ -12,7 +12,7 @@ This wiki covers topics in quantum computing, probabilistic inference, mathemati
 
 **Quantum speedups for probabilistic inference.** The foundational source is [[Quantum Inference on Bayesian Networks]] (Low, Yoder, Chuang 2014), which demonstrates that the graphical structure of [[Bayesian Networks]] can be exploited to build efficient quantum circuits for approximate inference. The core technique — [[Amplitude Amplification]] applied to a [[Q-Sample]] encoding of the joint distribution — yields a square-root improvement in sampling cost when evidence is rare. This is formalized as [[Quantum Rejection Sampling]].
 
-**Mathematical statistics (MATH 451/551).** A full semester of coursework covering the core pipeline of statistical inference:
+**Mathematical statistics (MATH 451∕551).** A full semester of coursework covering the core pipeline of statistical inference:
 
 1. **Estimation:** [[Method of Moments]] and [[Maximum Likelihood Estimation]] for point estimation. MLE's invariance property and connection to [[Sufficient Statistics]] via the factorization criterion.
 2. **Estimator properties:** Bias, MSE, efficiency, consistency, and unbiasedness — criteria for comparing estimators.
@@ -21,7 +21,7 @@ This wiki covers topics in quantum computing, probabilistic inference, mathemati
 
 The probability foundations — [[Joint Probability Distribution]], [[Independence of Random Variables]] — underpin both the statistics coursework and the Bayesian network structure used in the quantum computing work.
 
-**Complex analysis (MATH 485/585).** Lecture notes from [[Lukas Bundrock]] at the [[University of Alabama]] covering the theory of functions of a complex variable:
+**Complex analysis (MATH 485∕585).** Lecture notes from [[Lukas Bundrock]] at the [[University of Alabama]] covering the theory of functions of a complex variable:
 
 1. **Foundations:** [[Complex Numbers]] as a field, arithmetic, absolute value, conjugate, polar form, de Moivre's formula.
 2. **Functions and sequences:** Complex-valued functions decomposed into real/imaginary parts. Convergence, $\varepsilon$-$\delta$ limits, sequential characterization of continuity.

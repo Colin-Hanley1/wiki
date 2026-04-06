@@ -35,7 +35,7 @@ If $f$ is holomorphic on an open disc $B_R(z_0)$, then $f$ equals its Taylor ser
 
 $$f(z) = \sum_{n=0}^{\infty} \frac{f^{(n)}(z_0)}{n!}(z - z_0)^n, \qquad |z - z_0| < R$$
 
-This is a consequence of [[Cauchy's Integral Theorem|Cauchy's integral formula]] — a striking contrast with real analysis, where $C^\infty$ functions need not be analytic (Source: [[MATH 485/585 — Intro to Complex Variables]]).
+This is a consequence of [[Cauchy's Integral Theorem|Cauchy's integral formula]] — a striking contrast with real analysis, where $C^\infty$ functions need not be analytic (Source: [[MATH 485∕585 — Intro to Complex Variables]]).
 
 ## Key Properties
 

@@ -1,5 +1,5 @@
 ---
-title: "MATH 451/551 - Homework 9"
+title: "MATH 451∕551 - Homework 9"
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,9 +7,9 @@ tags: [mathematical-statistics, homework, hypothesis-testing, two-sample-t-test,
 sources: [HW9_MATH451_551_Spring2026_v14_sol.pdf]
 ---
 
-# MATH 451/551 — Homework 9
+# MATH 451∕551 — Homework 9
 
-**Course:** MATH 451/551 Mathematical Statistics
+**Course:** MATH 451∕551 Mathematical Statistics
 **Due:** April 4, 2026
 
 ## Key Topics

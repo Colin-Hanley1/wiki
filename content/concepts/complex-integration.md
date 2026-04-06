@@ -37,7 +37,7 @@ If $F'(z) = f(z)$ on a domain $D$, then $\int_C f\,dz = F(z(b)) - F(z(a))$ for a
 - **Cauchy's Integral Formula:** $f(z_0) = \frac{1}{2\pi i}\oint_C \frac{f(z)}{z - z_0}\,dz$ for $z_0$ inside $C$.
 - **Generalized formula:** $f^{(n)}(z_0) = \frac{n!}{2\pi i}\oint_C \frac{f(z)}{(z - z_0)^{n+1}}\,dz$.
 
-These results have no real-variable analogue — they are consequences of the rigidity imposed by the [[Cauchy-Riemann Equations]] (Source: [[MATH 485/585 — Intro to Complex Variables]]).
+These results have no real-variable analogue — they are consequences of the rigidity imposed by the [[Cauchy-Riemann Equations]] (Source: [[MATH 485∕585 — Intro to Complex Variables]]).
 
 ## Applications to Real Integrals
 

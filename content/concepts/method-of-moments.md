@@ -19,7 +19,7 @@ A classical technique for point estimation. The idea: equate population moments 
 
 ## Example
 
-For $f_Y(y) = (\theta+1)y^\theta$, $0 < y < 1$: the first moment is $E[Y] = \frac{\theta+1}{\theta+2}$. Setting $E[Y] = \bar{Y}$ and solving gives $\hat{\theta} = \frac{2\bar{Y}-1}{1-\bar{Y}}$ (Source: [[MATH 451/551 - Homework 1]]).
+For $f_Y(y) = (\theta+1)y^\theta$, $0 < y < 1$: the first moment is $E[Y] = \frac{\theta+1}{\theta+2}$. Setting $E[Y] = \bar{Y}$ and solving gives $\hat{\theta} = \frac{2\bar{Y}-1}{1-\bar{Y}}$ (Source: [[MATH 451∕551 - Homework 1]]).
 
 ## Properties
 
@@ -29,5 +29,5 @@ For $f_Y(y) = (\theta+1)y^\theta$, $0 < y < 1$: the first moment is $E[Y] = \fra
 
 ## See Also
 
-- [[MATH 451/551 - Homework 1]]
+- [[MATH 451∕551 - Homework 1]]
 - [[Joint Probability Distribution]]

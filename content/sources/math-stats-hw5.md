@@ -1,5 +1,5 @@
 ---
-title: "MATH 451/551 - Homework 5"
+title: "MATH 451∕551 - Homework 5"
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,9 +7,9 @@ tags: [mathematical-statistics, homework, confidence-intervals, pivotal-quantiti
 sources: [Solution_HW5_MATH451_551_Spring2026_v7.pdf]
 ---
 
-# MATH 451/551 — Homework 5
+# MATH 451∕551 — Homework 5
 
-**Course:** MATH 451/551 Mathematical Statistics, Spring 2026
+**Course:** MATH 451∕551 Mathematical Statistics, Spring 2026
 **Due:** February 28, 2026
 
 ## Key Topics

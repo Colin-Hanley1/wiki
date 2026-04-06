@@ -1,5 +1,5 @@
 ---
-title: "MATH 451/551 - Homework 6"
+title: "MATH 451∕551 - Homework 6"
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,9 +7,9 @@ tags: [mathematical-statistics, homework, confidence-intervals, two-sample-infer
 sources: [HW6_MATH451_551_Spring2026_v7.pdf]
 ---
 
-# MATH 451/551 — Homework 6
+# MATH 451∕551 — Homework 6
 
-**Course:** MATH 451/551 Mathematical Statistics
+**Course:** MATH 451∕551 Mathematical Statistics
 **Due:** March 7, 2026
 
 ## Key Topics

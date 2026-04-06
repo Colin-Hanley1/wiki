@@ -21,7 +21,7 @@ Writing $f(z) = u(x,y) + iv(x,y)$, holomorphicity is a much stronger condition t
 
 $$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \qquad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}$$
 
-If $u$ and $v$ have continuous first partial derivatives and satisfy Cauchy-Riemann, then $f$ is holomorphic (Source: [[MATH 485/585 — Intro to Complex Variables]]).
+If $u$ and $v$ have continuous first partial derivatives and satisfy Cauchy-Riemann, then $f$ is holomorphic (Source: [[MATH 485∕585 — Intro to Complex Variables]]).
 
 ## Key Properties
 

@@ -27,10 +27,10 @@ $Y_1$ and $Y_2$ are independent if and only if the joint PMF factors:
 
 $$P_{Y_1, Y_2}(y_1, y_2) = P_{Y_1}(y_1) \cdot P_{Y_2}(y_2) \quad \text{for all } y_1, y_2$$
 
-Failure at even a single point suffices to prove dependence (Source: [[MATH 451/551 - Homework 1]]).
+Failure at even a single point suffices to prove dependence (Source: [[MATH 451∕551 - Homework 1]]).
 
 ## See Also
 
 - [[Independence of Random Variables]]
 - [[Method of Moments]]
-- [[MATH 451/551 - Homework 1]]
+- [[MATH 451∕551 - Homework 1]]

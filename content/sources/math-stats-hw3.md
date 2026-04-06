@@ -1,5 +1,5 @@
 ---
-title: "MATH 451/551 - Homework 3"
+title: "MATH 451∕551 - Homework 3"
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,9 +7,9 @@ tags: [mathematical-statistics, homework, maximum-likelihood-estimation, consist
 sources: [HW3_MATH451_551_Spring2026_v7_solutions.pdf]
 ---
 
-# MATH 451/551 — Homework 3
+# MATH 451∕551 — Homework 3
 
-**Course:** MATH 451/551 Mathematical Statistics, Spring 2026
+**Course:** MATH 451∕551 Mathematical Statistics, Spring 2026
 **Due:** February 7, 2026
 
 ## Key Topics

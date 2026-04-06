@@ -17,7 +17,7 @@ Let $f(z) = u(x,y) + iv(x,y)$ where $z = x + iy$. If $f$ is holomorphic at $z_0 
 
 $$\frac{\partial u}{\partial x}(x_0, y_0) = \frac{\partial v}{\partial y}(x_0, y_0), \qquad \frac{\partial u}{\partial y}(x_0, y_0) = -\frac{\partial v}{\partial x}(x_0, y_0)$$
 
-**Sufficient condition:** If $u$ and $v$ have continuous first partial derivatives in a neighborhood of $z_0$ and satisfy the Cauchy-Riemann equations at $z_0$, then $f$ is holomorphic at $z_0$ (Source: [[MATH 485/585 — Intro to Complex Variables]]).
+**Sufficient condition:** If $u$ and $v$ have continuous first partial derivatives in a neighborhood of $z_0$ and satisfy the Cauchy-Riemann equations at $z_0$, then $f$ is holomorphic at $z_0$ (Source: [[MATH 485∕585 — Intro to Complex Variables]]).
 
 ## Derivation
 

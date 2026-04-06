@@ -17,7 +17,7 @@ Let $D \subseteq \mathbb{C}$ be a simply connected domain and let $f: D \to \mat
 
 $$\oint_C f(z)\,dz = 0$$
 
-(Source: [[MATH 485/585 — Intro to Complex Variables]])
+(Source: [[MATH 485∕585 — Intro to Complex Variables]])
 
 ## Equivalent Formulations
 
@@ -30,7 +30,7 @@ $$\oint_C f(z)\,dz = 0$$
 1. **Via Green's theorem** (requires $f'$ continuous): Apply Green's theorem to the real and imaginary parts, then use the [[Cauchy-Riemann Equations]].
 2. **Goursat's proof** (no extra regularity): Proves the result for triangles first (by successive bisection and a shrinking-triangle argument), then extends to general contours.
 
-The MATH 485/585 notes include a supplementary section on contour integrals over triangles, suggesting the Goursat approach.
+The MATH 485∕585 notes include a supplementary section on contour integrals over triangles, suggesting the Goursat approach.
 
 ## Consequences
 

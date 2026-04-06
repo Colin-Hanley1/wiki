@@ -1,5 +1,5 @@
 ---
-title: MATH 485/585 — Intro to Complex Variables
+title: MATH 485∕585 — Intro to Complex Variables
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,7 +7,7 @@ tags: [complex-analysis, math-485, lecture-notes, university-of-alabama]
 sources: [MATH485LectureNote.pdf]
 ---
 
-# MATH 485/585 — Intro to Complex Variables
+# MATH 485∕585 — Intro to Complex Variables
 
 **Author:** [[Lukas Bundrock]]
 **Institution:** [[University of Alabama]], Department of Mathematics
@@ -50,18 +50,18 @@ Lecture notes for an introductory course on functions of a complex variable, emp
 ### 5. Elementary Functions
 
 - Complex exponential and trigonometric functions.
-- [[Complex Logarithm]] and its branches.
+- Complex logarithm and its branches.
 - Complex powers and roots.
 
 ### 6. Complex Integration
 
 - Antiderivatives, contour integrals on triangles.
-- [[Cauchy's Integral Theorem]] and [[Cauchy's Integral Formula]].
+- [[Cauchy's Integral Theorem]] and Cauchy's integral formula.
 - Bounds for [[Holomorphic Functions]].
 
 ### 7. Series Expansions of Holomorphic Functions
 
-- [[Power Series]] recap and convergence.
+- [[Power Series (Complex Analysis)|Power series]] recap and convergence.
 - Taylor series for holomorphic functions.
 
 ## Notable Features

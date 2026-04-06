@@ -9,15 +9,15 @@ sources: [MATH485LectureNote.pdf]
 
 # University of Alabama
 
-Public research university in Tuscaloosa, Alabama. The Department of Mathematics offers MATH 485/585 (Intro to Complex Variables).
+Public research university in Tuscaloosa, Alabama. The Department of Mathematics offers MATH 485∕585 (Intro to Complex Variables).
 
 ## Associated People
 
-- [[Lukas Bundrock]] — Instructor, MATH 485/585
+- [[Lukas Bundrock]] — Instructor, MATH 485∕585
 
 ## Associated Sources
 
-- [[MATH 485/585 — Intro to Complex Variables]]
+- [[MATH 485∕585 — Intro to Complex Variables]]
 
 ## See Also
 

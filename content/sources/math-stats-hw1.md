@@ -1,5 +1,5 @@
 ---
-title: "MATH 451/551 - Homework 1"
+title: "MATH 451∕551 - Homework 1"
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,9 +7,9 @@ tags: [mathematical-statistics, homework, method-of-moments, independence, joint
 sources: [MathStatsHW1.pdf]
 ---
 
-# MATH 451/551 - Homework 1
+# MATH 451∕551 - Homework 1
 
-**Course:** MATH 451/551 (Mathematical Statistics)
+**Course:** MATH 451∕551 (Mathematical Statistics)
 **Due:** January 24, 2026
 
 ## Structure

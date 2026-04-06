@@ -1,5 +1,5 @@
 ---
-title: "MATH 451/551 - Homework 7"
+title: "MATH 451∕551 - Homework 7"
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,9 +7,9 @@ tags: [mathematical-statistics, homework, confidence-intervals, large-sample-inf
 sources: [HW7_MATH451_551_Spring2026_v9.pdf]
 ---
 
-# MATH 451/551 — Homework 7
+# MATH 451∕551 — Homework 7
 
-**Course:** MATH 451/551 Mathematical Statistics
+**Course:** MATH 451∕551 Mathematical Statistics
 **Due:** March 14, 2026
 
 ## Key Topics

@@ -1,5 +1,5 @@
 ---
-title: "MATH 451/551 - Homework 4"
+title: "MATH 451∕551 - Homework 4"
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,9 +7,9 @@ tags: [mathematical-statistics, homework, sufficient-statistics, factorization-c
 sources: [Solution_HW4_MATH451_551_Spring2026_v11.pdf]
 ---
 
-# MATH 451/551 — Homework 4
+# MATH 451∕551 — Homework 4
 
-**Course:** MATH 451/551 Mathematical Statistics, Spring 2026
+**Course:** MATH 451∕551 Mathematical Statistics, Spring 2026
 **Due:** ~February 14, 2026
 
 ## Key Topics

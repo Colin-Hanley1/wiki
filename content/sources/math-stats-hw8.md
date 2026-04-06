@@ -1,5 +1,5 @@
 ---
-title: "MATH 451/551 - Homework 8"
+title: "MATH 451∕551 - Homework 8"
 type: source
 created: 2026-04-06
 updated: 2026-04-06
@@ -7,9 +7,9 @@ tags: [mathematical-statistics, homework, hypothesis-testing, type-I-error, type
 sources: [HW8_MATH451_551_Spring2026_sol_v8.pdf]
 ---
 
-# MATH 451/551 — Homework 8
+# MATH 451∕551 — Homework 8
 
-**Course:** MATH 451/551 Mathematical Statistics
+**Course:** MATH 451∕551 Mathematical Statistics
 **Due:** March 28, 2026
 
 ## Key Topics

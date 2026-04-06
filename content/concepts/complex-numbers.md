@@ -20,7 +20,7 @@ A complex number $z = a + bi$ has **real part** $\Re(z) = a$ and **imaginary par
 - Addition: $z_1 + z_2 = (a+c) + (b+d)i$
 - Multiplication: $z_1 z_2 = (ac - bd) + (bc + ad)i$
 
-With these operations, $\mathbb{C}$ is a **field** — satisfying closure, commutativity, associativity, identity elements ($0$ and $1$), additive and multiplicative inverses, and distributivity (Source: [[MATH 485/585 — Intro to Complex Variables]]).
+With these operations, $\mathbb{C}$ is a **field** — satisfying closure, commutativity, associativity, identity elements ($0$ and $1$), additive and multiplicative inverses, and distributivity (Source: [[MATH 485∕585 — Intro to Complex Variables]]).
 
 **Multiplicative inverse:** For $z = a + bi \ne 0$:
 
