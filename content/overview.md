@@ -6,11 +6,13 @@ updated: 2026-04-06
 
 # Overview
 
-This wiki covers topics at the intersection of quantum computing, probabilistic inference, and machine learning.
+This wiki covers topics in quantum computing, probabilistic inference, and mathematical statistics.
 
 ## Current Focus
 
 **Quantum speedups for probabilistic inference.** The foundational source is [[Quantum Inference on Bayesian Networks]] (Low, Yoder, Chuang 2014), which demonstrates that the graphical structure of [[Bayesian Networks]] can be exploited to build efficient quantum circuits for approximate inference. The core technique — [[Amplitude Amplification]] applied to a [[Q-Sample]] encoding of the joint distribution — yields a square-root improvement in sampling cost when evidence is rare. This is formalized as [[Quantum Rejection Sampling]].
+
+**Mathematical statistics fundamentals.** Coursework from MATH 451/551 covers core estimation and probability concepts. [[Method of Moments]] provides a general approach to point estimation. The foundations of [[Joint Probability Distribution]] and [[Independence of Random Variables]] underpin both classical statistics and the probabilistic models used in quantum inference.
 
 ## Open Questions
 

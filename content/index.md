@@ -8,6 +8,7 @@ updated: 2026-04-06
 
 ## Sources
 - [[Quantum Inference on Bayesian Networks]] — Square-root quantum speedup for approximate inference on Bayesian networks (Low, Yoder, Chuang 2014).
+- [[MATH 451/551 - Homework 1]] — HW1 covering method of moments, joint PMFs, marginals, and independence.
 
 ## Entities
 - [[Guang Hao Low]] — Quantum computing researcher, MIT.
@@ -20,6 +21,9 @@ updated: 2026-04-06
 - [[Amplitude Amplification]] — Generalization of Grover's algorithm for boosting target state probability.
 - [[Q-Sample]] — Quantum state encoding a classical probability distribution via square-root amplitudes.
 - [[Quantum Rejection Sampling]] — Quantum algorithm for approximate inference with quadratic speedup.
+- [[Method of Moments]] — Parameter estimation by matching population and sample moments.
+- [[Joint Probability Distribution]] — Joint PMFs, marginal distributions, and their properties.
+- [[Independence of Random Variables]] — Factorization criterion for independence; counterexample proofs.
 
 ## Analyses
 _No analyses yet._

@@ -7,6 +7,9 @@ last-entry: 2026-04-06
 
 # Knowledge Log
 
+## [2026-04-06] ingest | MATH 451/551 Homework 1
+Ingested `raw/MathStatsHW1.pdf`. Created source page and 3 concept pages (Method of Moments, Joint Probability Distribution, Independence of Random Variables). Updated index and overview.
+
 ## [2026-04-06] ingest | Quantum Inference on Bayesian Networks
 Ingested `raw/QuantumInferenceonBayesianNetworks.pdf` (Low, Yoder, Chuang — MIT, 2014). Created source page, 4 entity pages (Guang Hao Low, Theodore J. Yoder, Isaac L. Chuang, MIT), and 4 concept pages (Bayesian Networks, Amplitude Amplification, Q-Sample, Quantum Rejection Sampling). Updated index and overview.
 
