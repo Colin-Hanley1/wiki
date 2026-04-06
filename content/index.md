@@ -22,11 +22,16 @@ updated: 2026-04-06
 - [[MATH 451/551 - Homework 8]] — Hypothesis testing framework, Type I/II errors, p-values, $t$-tests.
 - [[MATH 451/551 - Homework 9]] — Two-sample $t$-tests, $F$-test for variances, CI-test duality.
 
+### MATH 485/585 (Complex Variables)
+- [[MATH 485/585 — Intro to Complex Variables]] — Lecture notes covering complex numbers, functions, sequences, topology, differentiation, integration, and series (Bundrock, Spring 2026).
+
 ## Entities
 - [[Guang Hao Low]] — Quantum computing researcher, MIT.
 - [[Theodore J. Yoder]] — Quantum computing researcher, MIT.
 - [[Isaac L. Chuang]] — MIT professor, co-author of Nielsen & Chuang.
 - [[MIT]] — Massachusetts Institute of Technology.
+- [[Lukas Bundrock]] — Mathematician, University of Alabama. Instructor for MATH 485/585.
+- [[University of Alabama]] — Public research university; Department of Mathematics.
 
 ## Concepts
 
@@ -44,6 +49,14 @@ updated: 2026-04-06
 - [[Hypothesis Testing]] — Testing framework: $H_0$/$H_a$, Type I/II errors, p-values, rejection regions.
 - [[Joint Probability Distribution]] — Joint PMFs, marginal distributions, and their properties.
 - [[Independence of Random Variables]] — Factorization criterion for independence; counterexample proofs.
+
+### Complex Analysis
+- [[Complex Numbers]] — Field $\mathbb{C}$: arithmetic, absolute value, conjugate, polar form, de Moivre's formula.
+- [[Holomorphic Functions]] — Complex-differentiable functions; analyticity, Liouville, maximum modulus.
+- [[Cauchy-Riemann Equations]] — Necessary and sufficient conditions for holomorphicity.
+- [[Complex Integration]] — Contour integrals, antiderivatives, ML-inequality.
+- [[Cauchy's Integral Theorem]] — Holomorphic functions integrate to zero on closed contours in simply connected domains.
+- [[Power Series (Complex Analysis)]] — Convergence, Taylor series, Laurent series, residues.
 
 ## Analyses
 _No analyses yet._

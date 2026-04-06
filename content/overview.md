@@ -6,7 +6,7 @@ updated: 2026-04-06
 
 # Overview
 
-This wiki covers topics in quantum computing, probabilistic inference, and mathematical statistics.
+This wiki covers topics in quantum computing, probabilistic inference, mathematical statistics, and complex analysis.
 
 ## Current Focus
 
@@ -20,6 +20,17 @@ This wiki covers topics in quantum computing, probabilistic inference, and mathe
 4. **Hypothesis testing:** [[Hypothesis Testing]] framework — null/alternative hypotheses, Type I/II errors, p-values, rejection regions. One-sample and two-sample $t$-tests, $F$-test for variances, binomial tests. Duality between CIs and hypothesis tests.
 
 The probability foundations — [[Joint Probability Distribution]], [[Independence of Random Variables]] — underpin both the statistics coursework and the Bayesian network structure used in the quantum computing work.
+
+**Complex analysis (MATH 485/585).** Lecture notes from [[Lukas Bundrock]] at the [[University of Alabama]] covering the theory of functions of a complex variable:
+
+1. **Foundations:** [[Complex Numbers]] as a field, arithmetic, absolute value, conjugate, polar form, de Moivre's formula.
+2. **Functions and sequences:** Complex-valued functions decomposed into real/imaginary parts. Convergence, $\varepsilon$-$\delta$ limits, sequential characterization of continuity.
+3. **Topology:** Open/closed sets, boundary, compactness in $\mathbb{C} \cong \mathbb{R}^2$.
+4. **Differentiation:** [[Holomorphic Functions]] and the [[Cauchy-Riemann Equations]] — the tight constraint that makes complex differentiability far stronger than real differentiability.
+5. **Integration:** [[Complex Integration]] via contours. [[Cauchy's Integral Theorem]] (holomorphic functions integrate to zero on closed contours) and Cauchy's integral formula.
+6. **Series:** [[Power Series (Complex Analysis)|Power series]], Taylor and Laurent expansions — holomorphic functions are analytic.
+
+The course emphasizes computation and worked examples over formal proof. Contour integration techniques connect to real analysis (evaluating improper integrals) and, more distantly, to the quantum computing work (path integrals, characteristic functions in probability).
 
 ## Open Questions
 
