@@ -44,6 +44,36 @@ When $n$ independent exponential random variables with rates $\lambda_1, \ldots,
 
 This is fundamental for analyzing service systems and queueing (Source: [[MATH 457∕557 - Homework 9]]).
 
+## Worked Examples
+
+### Example 1: Fisherman Problem (HW8 H3)
+
+**Problem:** Fish arrive at rate $\lambda = 0.6$/hour. After 2 hours, the fisherman quits if he caught $\ge 1$ fish; otherwise he continues until catching exactly one. Find $P(\text{stays} > 2\text{ hours})$.
+
+**Solution:** He stays $> 2$ hours iff zero fish arrive in $[0, 2]$:
+
+$$P(N(2) = 0) = e^{-\lambda \cdot 2} = e^{-1.2} \approx 0.301$$
+
+(Source: [[MATH 457∕557 - Homework 8]])
+
+### Example 2: Memorylessness Applied (HW8 H1)
+
+**Problem:** A radio has lifetime $\text{Exp}(1/5)$ (mean 5 years). It has been working for 8 years. What is the probability it lasts 3 more years?
+
+**Solution:** By memorylessness: $P(T > 11 \mid T > 8) = P(T > 3) = e^{-3/5}$. The age of the radio is irrelevant — the remaining lifetime has the same distribution as a new radio.
+
+(Source: [[MATH 457∕557 - Homework 8]])
+
+### Example 3: Thinning and Merging (HW9 I3)
+
+**Problem:** Transmitters A and B send messages via independent Poisson processes at rates $\lambda_A$ and $\lambda_B$. What is the probability that exactly 8 of the next 12 messages are from A?
+
+**Solution:** By merging, the combined process has rate $\lambda_A + \lambda_B$. By thinning, each message is independently from A with probability $p = \frac{\lambda_A}{\lambda_A + \lambda_B}$. The number from A in the next 12 messages is $\text{Binomial}(12, p)$:
+
+$$P(X = 8) = \binom{12}{8} p^8 (1-p)^4 = \binom{12}{8} \left(\frac{\lambda_A}{\lambda_A + \lambda_B}\right)^8 \left(\frac{\lambda_B}{\lambda_A + \lambda_B}\right)^4$$
+
+(Source: [[MATH 457∕557 - Homework 9]])
+
 ## Relation to Markov Chains
 
 The Poisson process is a continuous-time Markov chain on $\{0, 1, 2, \ldots\}$. Continuous-time Markov chains generalize the discrete-time [[Markov Chains]] framework by using exponential holding times between transitions.

@@ -32,6 +32,28 @@ Compared to recurrent and convolutional layers (Source: [[Attention Is All You N
 
 The tradeoff is $O(n^2)$ complexity in sequence length, motivating variants like sparse attention for long sequences.
 
+## Worked Example: Toy Self-Attention Computation
+
+**Setup:** 2-token sequence with $d_k = 2$. Queries, keys, values:
+
+$$Q = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}, \quad K = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}, \quad V = \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix}$$
+
+**Step 1 — Compute $QK^\top / \sqrt{d_k}$:**
+
+$$QK^\top = \begin{pmatrix} 1 & 1 \\ 0 & 1 \end{pmatrix}, \quad \frac{QK^\top}{\sqrt{2}} = \begin{pmatrix} 0.707 & 0.707 \\ 0 & 0.707 \end{pmatrix}$$
+
+**Step 2 — Apply softmax (row-wise):**
+
+$$\text{Row 1: } \text{softmax}(0.707, 0.707) = (0.5, 0.5)$$
+
+$$\text{Row 2: } \text{softmax}(0, 0.707) = (0.330, 0.670)$$
+
+**Step 3 — Multiply by $V$:**
+
+$$\text{Output} = \begin{pmatrix} 0.5 & 0.5 \\ 0.330 & 0.670 \end{pmatrix} \begin{pmatrix} 1 & 0 \\ 0 & 1 \end{pmatrix} = \begin{pmatrix} 0.5 & 0.5 \\ 0.330 & 0.670 \end{pmatrix}$$
+
+Token 1 attends equally to both tokens; token 2 attends more to itself (higher key-query compatibility).
+
 ## Variants in the Transformer
 
 1. **Encoder self-attention**: each position attends to all positions in the encoder

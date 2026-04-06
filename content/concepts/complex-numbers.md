@@ -59,6 +59,44 @@ $$z_1 z_2 = r_1 r_2 \big(\cos(\varphi_1 + \varphi_2) + i\sin(\varphi_1 + \varphi
 
 The mapping $z \mapsto (\Re(z), \Im(z))$ is a vector space isomorphism $\mathbb{C} \cong \mathbb{R}^2$. This identification — the **Argand diagram** — underlies the geometric interpretation of complex analysis.
 
+## Worked Examples
+
+### Example 1: Arithmetic and Division (Lecture Notes Ex. 1.9)
+
+**Problem:** Write $\frac{1-i}{1+i}$ in the form $a + bi$.
+
+**Solution:** Multiply numerator and denominator by the conjugate of the denominator:
+
+$$\frac{1-i}{1+i} = \frac{(1-i)(1-i)}{(1+i)(1-i)} = \frac{1 - 2i + i^2}{1 - i^2} = \frac{1 - 2i - 1}{1 + 1} = \frac{-2i}{2} = -i$$
+
+### Example 2: Polar Form Conversion (Lecture Notes Ex. 1.13)
+
+**Problem:** Find the polar form of $z = -2 + i$.
+
+**Solution:**
+
+$$r = |z| = \sqrt{(-2)^2 + 1^2} = \sqrt{5}$$
+
+Since $\Re(z) < 0$ and $\Im(z) > 0$, Theorem 1.14 gives:
+
+$$\varphi = \arctan\!\left(\frac{1}{-2}\right) + \pi = \pi - \arctan\!\left(\frac{1}{2}\right) \approx 2.68$$
+
+$$z = \sqrt{5}\left(\cos(2.68) + i\sin(2.68)\right)$$
+
+### Example 3: Solving Quadratic Equations over $\mathbb{C}$ (Lecture Notes Ex. 1.10)
+
+**Problem:** Solve $z^2 - (1+3i)z + (-2+2i) = 0$.
+
+**Solution:** Complete the square: $\left(z - \frac{1+3i}{2}\right)^2 = -\frac{i}{2}$. Setting $w = z - \frac{1+3i}{2}$ and writing $w = a + bi$, equate real and imaginary parts of $w^2 = -i/2$:
+
+$$a^2 - b^2 = 0, \quad 2ab = -\frac{1}{2}$$
+
+Solving: $a = \pm\frac{1}{2}$, giving $w_1 = \frac{1}{2} - \frac{1}{2}i$ and $w_2 = -\frac{1}{2} + \frac{1}{2}i$. Therefore:
+
+$$z_1 = 1 + i, \quad z_2 = 2i$$
+
+(Source: [[MATH 485∕585 — Intro to Complex Variables]])
+
 ## Historical Note
 
 Gerolamo Cardano (1501–1576) first manipulated $\sqrt{-1}$ while solving cubics. René Descartes (1596–1650) introduced the term "imaginary." The Argand diagram is named after Jean-Robert Argand (1768–1822), though Caspar Wessel (1745–1818) described it first.

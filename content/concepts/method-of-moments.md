@@ -17,9 +17,41 @@ A classical technique for point estimation. The idea: equate population moments 
 2. Set each population moment equal to the corresponding sample moment: $E[Y^j] = m_j'$ where $m_j' = \frac{1}{n}\sum_{i=1}^n Y_i^j$.
 3. Solve the resulting system of equations for $\hat{\theta}_1, \ldots, \hat{\theta}_k$.
 
-## Example
+## Worked Examples
 
-For $f_Y(y) = (\theta+1)y^\theta$, $0 < y < 1$: the first moment is $E[Y] = \frac{\theta+1}{\theta+2}$. Setting $E[Y] = \bar{Y}$ and solving gives $\hat{\theta} = \frac{2\bar{Y}-1}{1-\bar{Y}}$ (Source: [[MATH 451∕551 - Homework 1]]).
+### Example 1: Single-Parameter Estimation (HW1 Ex. 9.69)
+
+**Problem:** Let $Y$ have density $f_Y(y) = (\theta+1)y^\theta$ for $0 < y < 1$. Find the MOM estimator for $\theta$.
+
+**Solution:**
+
+**Step 1 — Compute the first population moment:**
+
+$$E[Y] = \int_0^1 y \cdot (\theta+1)y^\theta\, dy = (\theta+1)\int_0^1 y^{\theta+1}\, dy = (\theta+1) \cdot \frac{1}{\theta+2} = \frac{\theta+1}{\theta+2}$$
+
+**Step 2 — Set $E[Y] = \bar{Y}$ (sample mean):**
+
+$$\frac{\theta+1}{\theta+2} = \bar{Y}$$
+
+**Step 3 — Solve for $\theta$:**
+
+$$\theta + 1 = \bar{Y}(\theta + 2) \implies \theta - \bar{Y}\theta = 2\bar{Y} - 1 \implies \theta(1 - \bar{Y}) = 2\bar{Y} - 1$$
+
+$$\hat{\theta}_{\text{MOM}} = \frac{2\bar{Y} - 1}{1 - \bar{Y}}$$
+
+Only one moment equation was needed because there is one unknown parameter (Source: [[MATH 451∕551 - Homework 1]]).
+
+### Example 2: Two-Parameter Case (Normal Distribution)
+
+**Problem:** For $Y_1, \ldots, Y_n \sim N(\mu, \sigma^2)$, find MOM estimators for both $\mu$ and $\sigma^2$.
+
+**Solution:** Two unknowns require two moment equations:
+
+$$E[Y] = \mu = \bar{Y} \implies \hat{\mu} = \bar{Y}$$
+
+$$E[Y^2] = \sigma^2 + \mu^2 = \frac{1}{n}\sum Y_i^2 \implies \hat{\sigma}^2 = \frac{1}{n}\sum Y_i^2 - \bar{Y}^2$$
+
+Note $\hat{\sigma}^2_{\text{MOM}}$ divides by $n$, not $n-1$ — it is biased for $\sigma^2$.
 
 ## Properties
 

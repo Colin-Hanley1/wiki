@@ -40,6 +40,22 @@ This allows the model to learn relative positional relationships and generalize 
 - **$O(1)$ sequential operations** per layer (vs. $O(n)$ for RNNs) → fully parallelizable
 - **$O(n^2 \cdot d)$ complexity** per layer — quadratic in sequence length, which becomes a bottleneck for very long sequences
 
+## Worked Example: Positional Encoding Values
+
+**Problem:** Compute the positional encoding for position $\text{pos} = 3$, dimensions $i = 0, 1$ with $d_{\text{model}} = 512$.
+
+**Solution:**
+
+$$PE_{(3, 0)} = \sin(3 / 10000^{0/512}) = \sin(3) \approx 0.141$$
+
+$$PE_{(3, 1)} = \cos(3 / 10000^{0/512}) = \cos(3) \approx -0.990$$
+
+$$PE_{(3, 2)} = \sin(3 / 10000^{2/512}) = \sin(3 / 10000^{0.0039}) \approx \sin(2.973) \approx 0.168$$
+
+$$PE_{(3, 3)} = \cos(3 / 10000^{2/512}) \approx \cos(2.973) \approx -0.986$$
+
+Lower dimensions oscillate rapidly (high frequency); higher dimensions change slowly. This multiresolution structure lets the model distinguish both nearby and distant positions (Source: [[Attention Is All You Need]]).
+
 ## Impact
 
 The Transformer is the backbone of modern deep learning:

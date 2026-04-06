@@ -34,13 +34,41 @@ Equating real and imaginary parts gives the Cauchy-Riemann equations.
 - **Derivative formula:** $f'(z) = u_x + iv_x = v_y - iu_y$.
 - **Polar form:** In polar coordinates $(r, \theta)$, the equations become $u_r = \frac{1}{r}v_\theta$ and $v_r = -\frac{1}{r}u_\theta$.
 
-## Examples
+## Worked Examples
 
-| $f(z)$ | $u(x,y)$ | $v(x,y)$ | CR satisfied? |
-|---|---|---|---|
-| $z^2 = (x^2 - y^2) + 2xyi$ | $x^2 - y^2$ | $2xy$ | Yes: $u_x = 2x = v_y$, $u_y = -2y = -v_x$ |
-| $\bar{z} = x - iy$ | $x$ | $-y$ | No: $u_x = 1 \ne v_y = -1$ |
-| $e^z = e^x\cos y + ie^x\sin y$ | $e^x\cos y$ | $e^x\sin y$ | Yes |
+### Example 1: Verifying Holomorphicity of $f(z) = z^2$
+
+**Problem:** Show $f(z) = z^2$ satisfies the Cauchy-Riemann equations.
+
+**Solution:** Write $f(z) = (x+iy)^2 = (x^2 - y^2) + 2xyi$, so $u = x^2 - y^2$ and $v = 2xy$.
+
+$$u_x = 2x, \quad v_y = 2x \quad \implies u_x = v_y \checkmark$$
+
+$$u_y = -2y, \quad v_x = 2y \quad \implies u_y = -v_x \checkmark$$
+
+Both equations hold everywhere, so $f(z) = z^2$ is entire. The derivative is $f'(z) = u_x + iv_x = 2x + 2yi = 2z$.
+
+### Example 2: Showing $f(z) = \bar{z}$ Is Not Holomorphic
+
+**Problem:** Show that $f(z) = \bar{z}$ fails the Cauchy-Riemann equations.
+
+**Solution:** $f(z) = x - iy$, so $u = x$, $v = -y$.
+
+$$u_x = 1, \quad v_y = -1 \quad \implies u_x \ne v_y$$
+
+The first CR equation fails at every point. Despite $u$ and $v$ being infinitely differentiable as real functions, $\bar{z}$ is nowhere holomorphic — illustrating that complex differentiability is far more restrictive than real differentiability.
+
+### Example 3: Verifying $e^z$ and Finding Its Derivative
+
+**Problem:** Verify $f(z) = e^z = e^x\cos y + ie^x\sin y$ is entire.
+
+**Solution:** $u = e^x\cos y$, $v = e^x\sin y$.
+
+$$u_x = e^x\cos y = v_y \checkmark, \quad u_y = -e^x\sin y = -v_x \checkmark$$
+
+The CR equations hold for all $(x, y)$, so $e^z$ is entire. The derivative: $f'(z) = u_x + iv_x = e^x\cos y + ie^x\sin y = e^z$.
+
+(Source: [[MATH 485∕585 — Intro to Complex Variables]])
 
 ## See Also
 

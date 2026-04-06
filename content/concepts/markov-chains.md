@@ -38,6 +38,40 @@ $$\lim_{n \to \infty} p^{(n)}(x, y) = \pi(y)$$
 
 where $\vec{\pi}$ is the unique [[Stationary Distributions|stationary distribution]]. The limit is independent of the starting state $x$ (Source: [[MATH 457∕557 - Homework 4]]).
 
+## Worked Examples
+
+### Example 1: Path Probability (HW1 A13)
+
+**Problem:** Social mobility chain with $P = \begin{pmatrix} 0.7 & 0.2 & 0.1 \\ 0.3 & 0.5 & 0.2 \\ 0.2 & 0.4 & 0.4 \end{pmatrix}$ and $P(X_0=1)=0.4$, $P(X_0=2)=0.5$, $P(X_0=3)=0.1$. Find $P(X_3=2, X_2=3, X_1=1, X_0=2)$.
+
+**Solution:** Factor using path probability and initial distribution:
+
+$$P(X_3=2, X_2=3, X_1=1, X_0=2) = P(X_3=2, X_2=3, X_1=1 \mid X_0=2) \cdot P(X_0=2)$$
+
+$$= p(2,1) \cdot p(1,3) \cdot p(3,2) \cdot P(X_0=2) = 0.3 \times 0.1 \times 0.4 \times 0.5 = 0.006$$
+
+(Source: [[MATH 457∕557 - Homework 1]])
+
+### Example 2: Ehrenfest Chain Transition Matrix (HW2 B3)
+
+**Problem:** $N = 3$ molecules distributed between two containers. $X_n$ = number in the left container. Find $P$.
+
+**Solution:** At each step, one of $N$ molecules is chosen uniformly at random and moved to the other container. If $X_n = k$, then $P(\text{move left}\to\text{right}) = k/N$ and $P(\text{move right}\to\text{left}) = (N-k)/N$.
+
+$$P = \begin{pmatrix} 0 & 1 & 0 & 0 \\ 1/3 & 0 & 2/3 & 0 \\ 0 & 2/3 & 0 & 1/3 \\ 0 & 0 & 1 & 0 \end{pmatrix}$$
+
+This chain is **irreducible** (all states communicate) but **periodic** with period 2 (the chain alternates parity at each step) (Source: [[MATH 457∕557 - Homework 2]]).
+
+### Example 3: Verifying the Markov Property Fails (HW1 A10)
+
+**Problem:** $Y_0, Y_1, Y_2, \ldots$ are i.i.d. fair coin flips (0 or 1). Let $X_n = Y_n + Y_{n-1}$. Is $\{X_n\}$ Markov?
+
+**Solution:** Find a case where conditioning on history changes the answer:
+
+$$P(X_3 = 2 \mid X_2 = 1) > 0 \quad \text{but} \quad P(X_3 = 2 \mid X_2 = 1, X_1 = 2) = 0$$
+
+The second equality holds because $X_1 = 2$ forces $Y_1 = Y_0 = 1$, and $X_2 = 1$ then forces $Y_2 = 0$, making $X_3 = Y_3 + Y_2 = Y_3 \le 1 \ne 2$. Since the two probabilities differ, the process is **not Markov** (Source: [[MATH 457∕557 - Homework 1]]).
+
 ## Key Examples from Coursework
 
 | Chain | State Space | Key Feature |
