@@ -12,7 +12,14 @@ This wiki covers topics in quantum computing, probabilistic inference, and mathe
 
 **Quantum speedups for probabilistic inference.** The foundational source is [[Quantum Inference on Bayesian Networks]] (Low, Yoder, Chuang 2014), which demonstrates that the graphical structure of [[Bayesian Networks]] can be exploited to build efficient quantum circuits for approximate inference. The core technique — [[Amplitude Amplification]] applied to a [[Q-Sample]] encoding of the joint distribution — yields a square-root improvement in sampling cost when evidence is rare. This is formalized as [[Quantum Rejection Sampling]].
 
-**Mathematical statistics fundamentals.** Coursework from MATH 451/551 covers core estimation and probability concepts. [[Method of Moments]] provides a general approach to point estimation. The foundations of [[Joint Probability Distribution]] and [[Independence of Random Variables]] underpin both classical statistics and the probabilistic models used in quantum inference.
+**Mathematical statistics (MATH 451/551).** A full semester of coursework covering the core pipeline of statistical inference:
+
+1. **Estimation:** [[Method of Moments]] and [[Maximum Likelihood Estimation]] for point estimation. MLE's invariance property and connection to [[Sufficient Statistics]] via the factorization criterion.
+2. **Estimator properties:** Bias, MSE, efficiency, consistency, and unbiasedness — criteria for comparing estimators.
+3. **Interval estimation:** [[Confidence Intervals]] via pivotal quantities ($Z$, $t$, $\chi^2$, $F$), covering both small-sample (normal theory) and large-sample (CLT-based) settings. Sample size determination.
+4. **Hypothesis testing:** [[Hypothesis Testing]] framework — null/alternative hypotheses, Type I/II errors, p-values, rejection regions. One-sample and two-sample $t$-tests, $F$-test for variances, binomial tests. Duality between CIs and hypothesis tests.
+
+The probability foundations — [[Joint Probability Distribution]], [[Independence of Random Variables]] — underpin both the statistics coursework and the Bayesian network structure used in the quantum computing work.
 
 ## Open Questions
 
