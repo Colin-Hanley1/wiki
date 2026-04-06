@@ -49,5 +49,5 @@ $\bar{Y}$ is shown to be sufficient for $\theta$ in the exponential distribution
 - [[Maximum Likelihood Estimation]]
 - [[Sufficient Statistics]]
 - [[Joint Probability Distribution]]
-- [[math-stats-hw2]]
-- [[math-stats-hw4]]
+- [[math-451-551-homework-2]]
+- [[math-451-551-homework-4]]

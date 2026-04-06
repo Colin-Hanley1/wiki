@@ -64,5 +64,5 @@ Exercise 8.40 introduces the idea of a pivotal quantity — a function of the da
 - [[Maximum Likelihood Estimation]]
 - [[Confidence Intervals]]
 - [[Method of Moments]]
-- [[math-stats-hw3]]
-- [[math-stats-hw5]]
+- [[math-451-551-homework-3]]
+- [[math-451-551-homework-5]]

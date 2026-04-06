@@ -49,4 +49,4 @@ Algebraic identities relating $\sum(Y_i - c)^2$ to $\sum(Y_i - \bar{Y})^2 + n(\b
 - [[Maximum Likelihood Estimation]]
 - [[Sufficient Statistics]]
 - [[Method of Moments]]
-- [[math-stats-hw3]]
+- [[math-451-551-homework-3]]

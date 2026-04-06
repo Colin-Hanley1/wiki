@@ -238,10 +238,19 @@ export function transformLink(src: FullSlug, target: string, opts: TransformOpti
 
     if (opts.strategy === "shortest") {
       // if the file name is unique, then it's just the filename
+      // normalize both sides: lowercase, strip non-alphanumeric (except hyphens), collapse hyphens
+      const normalize = (s: string) =>
+        s
+          .toLowerCase()
+          .replace(/[\u2215\u2044\u00f7]/g, "-") // unicode division slashes → hyphen
+          .replace(/[^a-z0-9-]/g, "")
+          .replace(/-+/g, "-")
+          .replace(/^-|-$/g, "")
+      const targetNorm = normalize(targetCanonical)
       const matchingFileNames = opts.allSlugs.filter((slug) => {
         const parts = slug.split("/")
         const fileName = parts.at(-1)
-        return targetCanonical === fileName
+        return fileName !== undefined && normalize(fileName) === targetNorm
       })
 
       // only match, just use it

@@ -65,4 +65,4 @@ Among all $(1 - \alpha)$-level confidence intervals, the shortest one minimizes 
 - [[Confidence Intervals]]
 - [[Sufficient Statistics]]
 - [[Independence of Random Variables]]
-- [[math-stats-hw4]]
+- [[math-451-551-homework-4]]
