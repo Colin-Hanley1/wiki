@@ -7,6 +7,9 @@ last-entry: 2026-04-06
 
 # Knowledge Log
 
+## [2026-04-06] ingest | MATH 457∕557 Homeworks 1–9
+Ingested 9 homework PDFs (HW1–HW9) for Applied Stochastic Processes. Created 9 source pages and 4 concept pages (Markov Chains, Stationary Distributions, Recurrence and Transience, Poisson Process). Updated index and overview.
+
 ## [2026-04-06] ingest | MATH 485∕585 Lecture Notes
 Ingested `raw/MATH485LectureNote.pdf` (Bundrock, University of Alabama — Spring 2026). Created source page, 2 entity pages (Lukas Bundrock, University of Alabama), and 6 concept pages (Complex Numbers, Holomorphic Functions, Cauchy-Riemann Equations, Complex Integration, Cauchy's Integral Theorem, Power Series). Updated index and overview.
 

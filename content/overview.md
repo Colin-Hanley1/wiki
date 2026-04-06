@@ -21,6 +21,15 @@ This wiki covers topics in quantum computing, probabilistic inference, mathemati
 
 The probability foundations — [[Joint Probability Distribution]], [[Independence of Random Variables]] — underpin both the statistics coursework and the Bayesian network structure used in the quantum computing work.
 
+**Applied stochastic processes (MATH 457∕557).** A full semester of coursework covering:
+
+1. **Discrete-time [[Markov Chains]]:** Transition matrices, path probabilities, multi-step transitions, state classification (communication, irreducibility, periodicity).
+2. **Equilibrium:** [[Stationary Distributions]] — existence/uniqueness for irreducible chains, long-run fractions, convergence conditions (irreducible + aperiodic + positive recurrent).
+3. **[[Recurrence and Transience]]:** Hitting and return times, first-step analysis, chain decomposition into transient states and irreducible closed sets, absorption probabilities, fundamental matrix.
+4. **Continuous-time:** [[Poisson Process]] — exponential inter-arrivals, memorylessness, merging, thinning, exponential races, queueing applications.
+
+The stochastic processes material builds directly on the probability foundations from MATH 451∕551 ([[Independence of Random Variables]], [[Joint Probability Distribution]]). The Markov chain framework also connects to [[Bayesian Networks]] in the quantum computing work — both encode conditional independence structure.
+
 **Complex analysis (MATH 485∕585).** Lecture notes from [[Lukas Bundrock]] at the [[University of Alabama]] covering the theory of functions of a complex variable:
 
 1. **Foundations:** [[Complex Numbers]] as a field, arithmetic, absolute value, conjugate, polar form, de Moivre's formula.

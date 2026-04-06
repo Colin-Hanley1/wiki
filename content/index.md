@@ -22,6 +22,17 @@ updated: 2026-04-06
 - [[MATH 451∕551 - Homework 8]] — Hypothesis testing framework, Type I/II errors, p-values, $t$-tests.
 - [[MATH 451∕551 - Homework 9]] — Two-sample $t$-tests, $F$-test for variances, CI-test duality.
 
+### MATH 457∕557 (Applied Stochastic Processes)
+- [[MATH 457∕557 - Homework 1]] — Probability review, Markov property, transition probabilities, path probabilities.
+- [[MATH 457∕557 - Homework 2]] — Multi-step transitions, Ehrenfest chain, stationary distributions, taxi cab chain.
+- [[MATH 457∕557 - Homework 3]] — Communication classes, recurrence vs transience, hitting times, chain decomposition.
+- [[MATH 457∕557 - Homework 4]] — Long-run fractions, asymptotic frequency, convergence conditions (I.R.A.).
+- [[MATH 457∕557 - Homework 5]] — State distribution evolution, periodicity, convergence to equilibrium.
+- [[MATH 457∕557 - Homework 6]] — Convergence verification, exit distributions, absorption probabilities.
+- [[MATH 457∕557 - Homework 7]] — Expected exit/return times, first-step analysis, absorbing state reconfiguration.
+- [[MATH 457∕557 - Homework 8]] — Poisson process, exponential distribution, memorylessness.
+- [[MATH 457∕557 - Homework 9]] — Merging/thinning Poisson processes, exponential races, queueing.
+
 ### MATH 485∕585 (Complex Variables)
 - [[MATH 485∕585 — Intro to Complex Variables]] — Lecture notes covering complex numbers, functions, sequences, topology, differentiation, integration, and series (Bundrock, Spring 2026).
 
@@ -49,6 +60,12 @@ updated: 2026-04-06
 - [[Hypothesis Testing]] — Testing framework: $H_0$/$H_a$, Type I/II errors, p-values, rejection regions.
 - [[Joint Probability Distribution]] — Joint PMFs, marginal distributions, and their properties.
 - [[Independence of Random Variables]] — Factorization criterion for independence; counterexample proofs.
+
+### Stochastic Processes
+- [[Markov Chains]] — Discrete-time chains, transition matrices, classification, convergence to equilibrium.
+- [[Stationary Distributions]] — Equilibrium distributions $\vec{\pi}P = \vec{\pi}$; existence, uniqueness, long-run fractions.
+- [[Recurrence and Transience]] — Return probabilities, hitting times, chain decomposition, absorption.
+- [[Poisson Process]] — Continuous-time counting process; exponential inter-arrivals, merging, thinning, races.
 
 ### Complex Analysis
 - [[Complex Numbers]] — Field $\mathbb{C}$: arithmetic, absolute value, conjugate, polar form, de Moivre's formula.
