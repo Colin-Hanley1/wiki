@@ -17,17 +17,27 @@ This homework continues the study of convergence to equilibrium, focusing on com
 
 ## Key Topics
 
-- **State distribution evolution q_n = q_0 P^n:** Tracking how the row vector of state probabilities evolves by left-multiplying by the transition matrix at each step.
-- **Sociology working/nonworking chain (Exercise 1.18):** A two-state chain modeling transitions between employment and unemployment, with transition probabilities estimated from sociological data.
-- **Convergence to equilibrium:** Verifying that q_n approaches the stationary distribution pi as n grows, regardless of the initial distribution q_0.
-- **Period checking via p^(n)(x,x) > 0:** The period of state x is gcd{n >= 1 : P^n(x,x) > 0}. A state is aperiodic if its period is 1. Checking aperiodicity by finding two consecutive values of n with positive return probability.
-- **Long-run fractions:** Computing the long-run proportion of time the chain spends in each state, which equals the stationary probability under convergence conditions.
-- **Two-state Markov chain detailed analysis:** Full characterization including eigenvalues of P, rate of convergence |lambda_2|^n, and explicit formula for P^n.
+- **State distribution evolution $\vec{q}_n = \vec{q}_0 P^n$:** Tracking how the row vector of state probabilities evolves by left-multiplying by the transition matrix at each step.
+- **Sociology working/nonworking chain (Exercise 1.18):** A two-state chain modeling transitions between employment and unemployment, with transition probabilities estimated from sociological data. The stationary distribution is $\vec{\pi} = (5/7,\; 2/7)$.
+- **Convergence to equilibrium:** Verifying that $\vec{q}_n$ approaches the stationary distribution $\vec{\pi}$ as $n$ grows, regardless of the initial distribution $\vec{q}_0$.
+- **Period checking via $p^{(n)}(x,x) > 0$:** The period of state $x$ is
+
+$$
+d(x) = \gcd\{n \ge 1 : p^{(n)}(x,x) > 0\}
+$$
+
+A state is aperiodic if $d(x) = 1$. Checking aperiodicity by finding two consecutive values of $n$ with positive return probability.
+- **Long-run fractions:** Computing the long-run proportion of time the chain spends in each state, which equals the stationary probability $\pi(x)$ under convergence conditions.
+- **Two-state Markov chain detailed analysis:** Full characterization including eigenvalues of $P$, rate of convergence $|\lambda_2|^n$, and explicit formula for $P^n$. Convergence:
+
+$$
+\lim_{n \to \infty} P^n = \mathbf{1} \vec{\pi}
+$$
 
 ## Key Takeaways
 
-1. The distribution vector q_n converges to pi geometrically fast, with rate governed by the second-largest eigenvalue of P.
-2. Periodicity can be checked mechanically by computing gcd of return times; a self-loop (P(x,x) > 0) immediately guarantees aperiodicity.
+1. The distribution vector $\vec{q}_n$ converges to $\vec{\pi}$ geometrically fast, with rate governed by the second-largest eigenvalue of $P$.
+2. Periodicity can be checked mechanically by computing $\gcd$ of return times; a self-loop ($p(x,x) > 0$) immediately guarantees aperiodicity.
 3. Two-state chains illustrate all convergence phenomena in a fully explicit setting.
 4. Long-run fractions equal stationary probabilities — this connects the time-average interpretation to the distributional limit.
 

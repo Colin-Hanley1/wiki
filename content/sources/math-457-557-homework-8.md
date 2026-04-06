@@ -17,12 +17,23 @@ This homework marks the transition from discrete-time Markov chains to continuou
 
 ## Key Topics
 
-- **Poisson process and exponential distribution:** The Poisson process N(t) counts events occurring at a constant rate lambda. Inter-arrival times are independent Exp(lambda) random variables. N(t) has a Poisson(lambda t) distribution.
-- **Memorylessness property:** The exponential distribution is the unique continuous distribution satisfying P(X > s+t | X > s) = P(X > t). This means "the future is independent of the past given the present" — the continuous-time analog of the Markov property.
+- **Poisson process and exponential distribution:** The Poisson process $N(t)$ counts events occurring at a constant rate $\lambda$. Inter-arrival times are independent $\text{Exp}(\lambda)$ random variables. The count has distribution $N(t) \sim \text{Poisson}(\lambda t)$.
+- **Memorylessness property:** The exponential distribution is the unique continuous distribution satisfying
+
+$$
+P(T > t + s \mid T > t) = P(T > s)
+$$
+
+This means "the future is independent of the past given the present" — the continuous-time analog of the Markov property. Equivalently, the survival function is $P(T > t) = e^{-\lambda t}$.
 - **Radio lifetime problem:** Applying exponential distribution calculations to model the lifetime of electronic components. Computing probabilities of survival beyond a given time.
-- **Customer arrivals:** Modeling the number of customers arriving at a store in a given time window using the Poisson distribution. Computing probabilities of specific arrival counts.
+- **Customer arrivals:** Modeling the number of customers arriving at a store in a given time window using the Poisson distribution. With rate $\lambda = 0.6$ per unit time:
+
+$$
+P(N(2) = 0) = e^{-1.2}
+$$
+
 - **Fisherman catching fish:** A Poisson process model for fish catches. Computing the probability of catching a certain number of fish in a time interval, the expected waiting time for the next catch, and conditional probabilities.
-- **Inter-arrival times:** The times between successive events in a Poisson process are i.i.d. Exp(lambda). This characterization is equivalent to the Poisson counting definition.
+- **Inter-arrival times:** The times between successive events in a Poisson process are i.i.d. $\text{Exp}(\lambda)$. This characterization is equivalent to the Poisson counting definition.
 - **Conditional expectations given elapsed time:** Using memorylessness to compute expected remaining time given that some time has already elapsed without an event.
 
 ## Key Takeaways

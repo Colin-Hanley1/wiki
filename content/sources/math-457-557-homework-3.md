@@ -17,13 +17,24 @@ This homework addresses the structural theory of Markov chains: communication cl
 
 ## Key Topics
 
-- **Communication and class structure:** Two states communicate (x <-> y) if each is reachable from the other. Communication is an equivalence relation, partitioning the state space into classes.
-- **Recurrence vs transience:** A state is recurrent if the chain returns to it with probability 1, transient if there is positive probability of never returning. Recurrence and transience are class properties.
-- **Hitting times T_y and return times:** The hitting time T_y is the first time the chain visits state y. The return time is T_x starting from x. These are fundamental random variables for chain analysis.
+- **Communication and class structure:** Two states communicate ($x \leftrightarrow y$) if each is reachable from the other, i.e., $p^{(n)}(x,y) > 0$ and $p^{(m)}(y,x) > 0$ for some $n, m \ge 1$. Communication is an equivalence relation, partitioning the state space into classes.
+- **Recurrence vs transience:** A state is recurrent if $\rho_{xx} = 1$ (the chain returns to it with probability 1), transient if $\rho_{xx} < 1$ (there is positive probability of never returning). Recurrence and transience are class properties.
+- **Hitting times $T_y$ and return times:** The hitting time $T_y$ is the first time the chain visits state $y$. The return time is $T_x$ starting from $x$. These are fundamental random variables for chain analysis.
 - **Irreducibility:** A chain is irreducible if all states communicate — there is a single communicating class. Irreducibility simplifies analysis because recurrence/transience applies uniformly.
-- **Decomposition into irreducible closed sets:** Every finite chain decomposes into transient states and one or more irreducible closed (recurrent) sets.
-- **Chain on nonneg integers:** A chain that moves from x to x+1 with probability p and to 0 with probability q = 1-p. Computing the expected return time E_0[T_0] = 1/(1-p) via first-step analysis.
-- **Gambler's ruin with N = infinity:** The classic ruin problem on {0, 1, 2, ...} without an upper barrier. Determining ruin probability and expected duration.
+- **Decomposition into irreducible closed sets:** Every finite chain decomposes as
+
+$$
+S = T \cup C_1 \cup C_2 \cup \cdots
+$$
+
+where $T$ is the set of transient states and $C_1, C_2, \ldots$ are irreducible closed (recurrent) sets.
+- **Chain on nonnegative integers:** A chain that moves from $x$ to $x+1$ with probability $p$ and to $0$ with probability $q = 1-p$. Computing the expected return time via first-step analysis:
+
+$$
+E_0[T_0] = \frac{1}{1-p}
+$$
+
+- **Gambler's ruin with $N = \infty$:** The classic ruin problem on $\{0, 1, 2, \ldots\}$ without an upper barrier. Determining ruin probability and expected duration.
 
 ## Key Takeaways
 

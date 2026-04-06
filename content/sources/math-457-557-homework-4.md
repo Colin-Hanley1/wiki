@@ -17,11 +17,22 @@ This homework covers long-run behavior and convergence of Markov chains. Problem
 
 ## Key Topics
 
-- **Basketball player shot chain:** A player's success probability depends on whether the last shot was made or missed, forming a two-state Markov chain. The asymptotic shooting percentage is determined by the stationary distribution.
+- **Basketball player shot chain:** A player's success probability depends on whether the last shot was made or missed, forming a two-state Markov chain. The asymptotic shooting percentage is determined by the stationary distribution: $\pi(H) = 7/13$.
 - **Professor's light bulbs chain:** A chain modeling the number of working light bulbs in an office, with transitions determined by bulb failure and replacement policies.
-- **Convergence conditions (I.R.A.):** A finite Markov chain converges to its unique stationary distribution if and only if it is Irreducible, Recurrent, and Aperiodic. Sometimes stated as I.R.S. (Irreducible, Recurrent, Stationary exists) for finite chains where recurrence is automatic.
-- **Two-state chains:** Complete analysis of 2x2 transition matrices. Closed-form expressions for P^n, stationary distribution, and rate of convergence.
-- **Random walk with barriers:** A random walk on {0, 1, ..., N} with reflecting or absorbing barriers. Determining long-run behavior depending on barrier type.
+- **Convergence conditions (I.R.A.):** A finite Markov chain converges to its unique stationary distribution if and only if it is **I**rreducible, **R**ecurrent, and **A**periodic. Sometimes stated as I.R.S. (Irreducible, Recurrent, Stationary exists) for finite chains where recurrence is automatic.
+- **Two-state chains:** Complete analysis of $2 \times 2$ transition matrices. Closed-form expressions for $P^n$, stationary distribution, and rate of convergence. For a two-state chain with off-diagonal probabilities $a$ and $b$:
+
+$$
+\vec{\pi} = \left(\frac{b}{a+b},\; \frac{a}{a+b}\right)
+$$
+
+- **Asymptotic frequency:** The fraction of time spent in state $y$ converges:
+
+$$
+\lim_{n \to \infty} \frac{N_n(y)}{n} = \pi(y)
+$$
+
+- **Random walk with barriers:** A random walk on $\{0, 1, \ldots, N\}$ with reflecting or absorbing barriers. Determining long-run behavior depending on barrier type.
 
 ## Key Takeaways
 

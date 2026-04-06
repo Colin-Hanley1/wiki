@@ -17,17 +17,22 @@ This homework bridges convergence theory and exit/absorption problems. It covers
 
 ## Key Topics
 
-- **Convergence to equilibrium (Theorem 1.19 conditions):** Verifying that a given chain satisfies irreducibility, positive recurrence, and aperiodicity so that the convergence theorem applies.
-- **Aperiodicity checking via multi-step transitions:** Computing P^n(x,x) for small values of n to determine the period. If P^n(x,x) > 0 and P^(n+1)(x,x) > 0 for some n, the state is aperiodic.
-- **Exit distributions and absorption probabilities:** Given a chain with absorbing states, computing the probability of being absorbed into each absorbing state as a function of the starting state.
-- **Absorbing states:** A state a is absorbing if P(a,a) = 1. Once entered, the chain never leaves. Absorbing states are trivially recurrent.
-- **Matrix methods for exit problems:** Setting up and solving systems of linear equations h(x) = sum_y P(x,y) h(y) with boundary conditions h(a) = 1 or 0 at absorbing states. Can also be expressed in matrix form using the fundamental matrix (I - Q)^{-1}.
+- **Convergence to equilibrium (Theorem 1.19 conditions):** Verifying that a given chain satisfies irreducibility, positive recurrence, and aperiodicity so that the convergence theorem applies:
+
+$$
+\lim_{n \to \infty} p^{(n)}(x,y) = \pi(y)
+$$
+
+- **Aperiodicity checking via multi-step transitions:** Computing $p^{(n)}(x,x)$ for small values of $n$ to determine the period. If $p^{(3)}(1,1) > 0$ and $p^{(4)}(1,1) > 0$, then $\gcd(3,4) = 1$, so the state is aperiodic.
+- **Exit distributions and absorption probabilities:** Given a chain with absorbing states, computing the probability of being absorbed into each absorbing state as a function of the starting state. The exit distribution $g(x) = P_x(\text{absorbed into } A)$ satisfies a linear system.
+- **Absorbing states:** A state $a$ is absorbing if $p(a,a) = 1$. Once entered, the chain never leaves. Absorbing states are trivially recurrent.
+- **Matrix methods for exit problems:** Setting up and solving systems of linear equations $h(x) = \sum_y p(x,y)\, h(y)$ with boundary conditions $h(a) = 1$ or $0$ at absorbing states. Can also be expressed in matrix form using the fundamental matrix $(I - Q)^{-1}$.
 
 ## Key Takeaways
 
 1. Theorem 1.19 provides the practical checklist: verify irreducibility, recurrence, and aperiodicity to guarantee convergence.
 2. Exit distributions reduce to solving linear systems — one equation per transient state, with boundary conditions at absorbing states.
-3. The fundamental matrix N = (I - Q)^{-1} encodes expected number of visits to each transient state before absorption.
+3. The fundamental matrix $N = (I - Q)^{-1}$ encodes expected number of visits to each transient state before absorption.
 4. Absorption is certain from any transient state in a finite chain — the only question is which absorbing class captures the chain.
 
 ## See Also
