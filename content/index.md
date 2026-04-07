@@ -40,6 +40,14 @@ updated: 2026-04-06
 - [[MATH 451∕551 - Homework 8]] — Hypothesis testing framework, Type I/II errors, p-values, $t$-tests.
 - [[MATH 451∕551 - Homework 9]] — Two-sample $t$-tests, $F$-test for variances, CI-test duality.
 
+### Stochastic Processes (Textbook)
+- [[SP Textbook — Ch. 1 Markov Chains]] — Definitions, transition matrices, Chapman-Kolmogorov, classification, stationary distributions, convergence, detailed balance, Metropolis-Hastings, exit distributions/times, gambler's ruin.
+- [[SP Textbook — Ch. 2 Poisson Processes]] — Exponential distribution, Poisson process definitions, compound Poisson, thinning, superposition, conditioning (Durrett Ch. 2).
+- [[SP Textbook — Ch. 3 Renewal Processes]] — Renewal process, elementary renewal theorem, renewal reward, queueing (GI/G/1, M/G/1), age/residual life, inspection paradox (Durrett Ch. 3).
+- [[SP Textbook — Ch. 4 Continuous Time Markov Chains]] — CTMC definition, Q-matrix, Kolmogorov equations, birth-death processes, queues.
+- [[SP Textbook — Ch. 5 Martingales]] — Martingale definition, optional stopping theorem, convergence, applications to random walks and gambling.
+- [[SP Textbook — Ch. 6 Mathematical Finance]] — Binomial pricing model, risk-neutral valuation, European/American options, Black-Scholes, CAPM.
+
 ### MATH 457∕557 (Applied Stochastic Processes)
 - [[MATH 457∕557 - Homework 1]] — Probability review, Markov property, transition probabilities, path probabilities.
 - [[MATH 457∕557 - Homework 2]] — Multi-step transitions, Ehrenfest chain, stationary distributions, taxi cab chain.
@@ -92,6 +100,19 @@ updated: 2026-04-06
 - [[Stationary Distributions]] — Equilibrium distributions $\vec{\pi}P = \vec{\pi}$; existence, uniqueness, long-run fractions.
 - [[Recurrence and Transience]] — Return probabilities, hitting times, chain decomposition, absorption.
 - [[Poisson Process]] — Continuous-time counting process; exponential inter-arrivals, merging, thinning, races.
+- [[Compound Poisson Process]] — Random sums over Poisson arrivals; mean/variance formulas, insurance/network applications.
+- [[Renewal Process]] — Counting process with i.i.d. inter-arrivals; elementary renewal theorem, renewal reward, queueing, inspection paradox.
+- [[Continuous Time Markov Chain]] — CTMC definition, Q-matrix, Kolmogorov equations, embedded chain, stationary distributions.
+- [[Birth-Death Process]] — Adjacent-state CTMCs; birth/death rates, M/M/1 queue, machine repair model.
+- [[Martingale]] — Fair-game processes; optional stopping theorem, convergence, gambling strategies.
+- [[Detailed Balance]] — Reversibility condition $\pi(i)p(i,j) = \pi(j)p(j,i)$; connection to stationary distributions.
+- [[Metropolis-Hastings Algorithm]] — MCMC sampling via proposal-acceptance; detailed balance by construction.
+- [[Exit Distributions and Times]] — Absorption probabilities and expected hitting times via linear systems.
+- [[Black-Scholes Formula]] — European option pricing; $C = S_0\Phi(d_1) - Ke^{-rT}\Phi(d_2)$, put-call parity.
+- [[Black-Scholes Formula]] — European option pricing; risk-neutral derivation as limit of binomial model, Greeks.
+- [[Detailed Balance]] — Condition $\pi(x)p(x,y) = \pi(y)p(y,x)$; reversibility, birth-death chains, random walks on graphs.
+- [[Metropolis-Hastings Algorithm]] — MCMC sampling via accept-reject on proposals; detailed balance by construction.
+- [[Exit Distributions and Times]] — Hitting probabilities and expected absorption times via first-step analysis; gambler's ruin.
 
 ### Quantum Optimization
 - [[QUBO]] — Quadratic Unconstrained Binary Optimization; Ising equivalence, penalty method for constraints.

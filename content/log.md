@@ -7,6 +7,18 @@ last-entry: 2026-04-06
 
 # Knowledge Log
 
+## [2026-04-06] ingest | SP Textbook Ch. 1 (Markov Chains)
+Ingested Chapter 1 of *Essentials of Stochastic Processes* (Durrett, 2nd ed., 2012). Created 1 source page (Ch. 1 Markov Chains) and 3 concept pages (Detailed Balance, Metropolis-Hastings Algorithm, Exit Distributions and Times) with worked examples. Updated index.
+
+## [2026-04-06] ingest | SP Textbook Ch. 5 (Martingales) & Ch. 6 (Mathematical Finance)
+Ingested Chapters 5 and 6 of *Essentials of Stochastic Processes* (Durrett, 2nd ed., 2012). Created 2 source pages (Ch. 5 Martingales, Ch. 6 Mathematical Finance) and 2 concept pages (Martingale, Black-Scholes Formula) with worked examples. Updated index.
+
+## [2026-04-06] ingest | SP Textbook Ch. 2 (Poisson Processes) & Ch. 3 (Renewal Processes)
+Ingested Chapters 2 and 3 of *Essentials of Stochastic Processes* (Durrett, 2nd ed., 2012). Created 2 source pages (Ch. 2 Poisson Processes, Ch. 3 Renewal Processes) and 2 concept pages (Compound Poisson Process, Renewal Process) with worked examples. Updated index.
+
+## [2026-04-06] ingest | SP Textbook Ch. 4 (Continuous Time Markov Chains)
+Ingested Chapter 4 of *Essentials of Stochastic Processes* (Durrett, 2nd ed., 2012). Created 1 source page and 2 concept pages (Continuous Time Markov Chain, Birth-Death Process) with worked examples. Updated index.
+
 ## [2026-04-06] ingest | QML Textbook Ch. 8-10 (QML, QSVMs, QNNs)
 Ingested chapters 8-10. Created 3 source pages and 3 concept pages (Quantum Machine Learning, Quantum SVM, Quantum Neural Network) with worked examples and LaTeX math.
 
