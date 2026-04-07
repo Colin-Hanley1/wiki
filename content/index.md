@@ -141,4 +141,4 @@ updated: 2026-04-06
 - [[Power Series (Complex Analysis)]] — Convergence, Taylor series, Laurent series, residues.
 
 ## Analyses
-_No analyses yet._
+- [[MATH 451∕551 Exam 2 Study Guide]] — Comprehensive review for Exam 2: CI construction, pivotal quantities, two-sample inference, large-sample methods, hypothesis testing basics.
