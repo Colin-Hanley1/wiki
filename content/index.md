@@ -11,6 +11,9 @@ updated: 2026-04-06
 ### Quantum Computing
 - [[Quantum Inference on Bayesian Networks]] — Square-root quantum speedup for approximate inference on Bayesian networks (Low, Yoder, Chuang 2014).
 
+### Quantum Machine Learning
+- [[QML Textbook — Ch. 1 Foundations of Quantum Computing]] — Qubits, quantum gates, measurements, entanglement, universality (Combarro & González-Castillo, 2023).
+
 ### Deep Learning
 - [[Attention Is All You Need]] — Introduces the Transformer; self-attention replaces recurrence for sequence transduction (Vaswani et al., 2017).
 - [[Instant Neural Graphics Primitives with a Multiresolution Hash Encoding]] — Trainable hash table encoding for instant NeRF training (Müller et al., SIGGRAPH 2022).
@@ -58,6 +61,8 @@ updated: 2026-04-06
 - [[Amplitude Amplification]] — Generalization of Grover's algorithm for boosting target state probability.
 - [[Q-Sample]] — Quantum state encoding a classical probability distribution via square-root amplitudes.
 - [[Quantum Rejection Sampling]] — Quantum algorithm for approximate inference with quadratic speedup.
+- [[Qubit]] — Fundamental unit of quantum information; superposition, measurement, Dirac notation.
+- [[Quantum Gates]] — Unitary operations on qubits; Pauli gates, Hadamard, CNOT, universality.
 
 ### Mathematical Statistics
 - [[Method of Moments]] — Parameter estimation by matching population and sample moments.

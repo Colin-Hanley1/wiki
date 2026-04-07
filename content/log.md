@@ -7,6 +7,9 @@ last-entry: 2026-04-06
 
 # Knowledge Log
 
+## [2026-04-06] ingest | QML Textbook Ch. 1 (Foundations of Quantum Computing)
+Ingested first 50 pages of *A Practical Guide to Quantum Machine Learning and Quantum Optimization* (Combarro & González-Castillo, 2023). Created 1 source page and 2 concept pages (Qubit, Quantum Gates) with worked examples. Updated index and overview.
+
 ## [2026-04-06] ingest | Attention Is All You Need + Multiresolution Hash Encoding
 Ingested two deep learning papers. Created 2 source pages, 3 entity pages (Ashish Vaswani, Google Brain, NVIDIA), and 5 concept pages (Transformer, Self-Attention, Multi-Head Attention, Multiresolution Hash Encoding, NeRF). Updated index and overview.
 
