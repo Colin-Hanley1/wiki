@@ -41,7 +41,7 @@ Three balanced coins are tossed. Let $Y_1$ = number of heads, $Y_2$ = number of 
 
 ### A4: Probability from Joint PMF (Ex. 5.19)
 
-Compute $P(\text{fewer than 3 heads and win } \$1 \text{ or less})$ by summing appropriate entries from the joint PMF. Result: $1/2$.
+Compute the probability of fewer than 3 heads and winning \$1 or less by summing appropriate entries from the joint PMF. Result: $1/2$.
 
 Also derives the marginal PMF of $Y_1$ by summing over $Y_2$:
 - $P_{Y_1}(0) = 4/9$, $P_{Y_1}(1) = 4/9$, $P_{Y_1}(2) = 1/9$.

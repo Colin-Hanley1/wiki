@@ -7,6 +7,18 @@ last-entry: 2026-04-06
 
 # Knowledge Log
 
+## [2026-04-06] ingest | QML Textbook Ch. 8-10 (QML, QSVMs, QNNs)
+Ingested chapters 8-10. Created 3 source pages and 3 concept pages (Quantum Machine Learning, Quantum SVM, Quantum Neural Network) with worked examples and LaTeX math.
+
+## [2026-04-06] ingest | QML Textbook Ch. 2-4 (Tools, QUBO, Annealing)
+Ingested chapters 2-4. Created 3 source pages and 2 concept pages (QUBO, Quantum Annealing) with worked examples and LaTeX math.
+
+## [2026-04-06] ingest | QML Textbook Ch. 5 (QAOA), Ch. 6 (GAS), Ch. 7 (VQE)
+Ingested chapters 5, 6, and 7 of *A Practical Guide to Quantum Machine Learning and Quantum Optimization* (Combarro & González-Castillo, 2023). Created 3 source pages and 3 concept pages (QAOA, Grover's Algorithm, VQE) with worked examples. Updated index.
+
+## [2026-04-06] ingest | QML Textbook Ch. 11 (Hybrid Architectures) & Ch. 12 (Quantum GANs)
+Ingested extracted text for Chapters 11 and 12 of *A Practical Guide to Quantum Machine Learning and Quantum Optimization* (Combarro & González-Castillo, 2023). Created 2 source pages (Ch. 11 Hybrid Architectures, Ch. 12 Quantum GANs) and 2 concept pages (Hybrid Quantum-Classical, Quantum GAN). Updated index.
+
 ## [2026-04-06] ingest | QML Textbook Ch. 1 (Foundations of Quantum Computing)
 Ingested first 50 pages of *A Practical Guide to Quantum Machine Learning and Quantum Optimization* (Combarro & González-Castillo, 2023). Created 1 source page and 2 concept pages (Qubit, Quantum Gates) with worked examples. Updated index and overview.
 

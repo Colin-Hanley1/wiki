@@ -11,8 +11,19 @@ updated: 2026-04-06
 ### Quantum Computing
 - [[Quantum Inference on Bayesian Networks]] — Square-root quantum speedup for approximate inference on Bayesian networks (Low, Yoder, Chuang 2014).
 
-### Quantum Machine Learning
-- [[QML Textbook — Ch. 1 Foundations of Quantum Computing]] — Qubits, quantum gates, measurements, entanglement, universality (Combarro & González-Castillo, 2023).
+### Quantum Machine Learning (Textbook)
+- [[QML Textbook — Ch. 1 Foundations of Quantum Computing]] — Qubits, quantum gates, measurements, entanglement, universality.
+- [[QML Textbook — Ch. 2 Tools of the Trade]] — Qiskit, PennyLane, Ocean frameworks; circuit construction and simulation.
+- [[QML Textbook — Ch. 3 QUBO Problems]] — Max-Cut, Ising model, QUBO formulation, penalty method for constraints.
+- [[QML Textbook — Ch. 4 Adiabatic QC and Quantum Annealing]] — Adiabatic theorem, quantum annealing, D-Wave hardware.
+- [[QML Textbook — Ch. 5 QAOA]] — Quantum Approximate Optimization Algorithm; discretized adiabatic evolution.
+- [[QML Textbook — Ch. 6 Grover Adaptive Search]] — Grover's algorithm, phase kickback, quantum oracles for optimization.
+- [[QML Textbook — Ch. 7 VQE]] — Variational Quantum Eigensolver; variational principle, ansatz design, quantum chemistry.
+- [[QML Textbook — Ch. 8 What Is QML]] — Machine learning taxonomy, quantum-classical models, data encoding.
+- [[QML Textbook — Ch. 9 Quantum SVMs]] — Quantum kernel methods, feature maps, quantum support vector machines.
+- [[QML Textbook — Ch. 10 Quantum Neural Networks]] — Variational circuits as QNNs, parameter shift rule, training.
+- [[QML Textbook — Ch. 11 Hybrid Architectures]] — Hybrid quantum-classical neural networks; PennyLane/Qiskit integration.
+- [[QML Textbook — Ch. 12 Quantum GANs]] — Quantum Generative Adversarial Networks; Born machines.
 
 ### Deep Learning
 - [[Attention Is All You Need]] — Introduces the Transformer; self-attention replaces recurrence for sequence transduction (Vaswani et al., 2017).
@@ -63,6 +74,9 @@ updated: 2026-04-06
 - [[Quantum Rejection Sampling]] — Quantum algorithm for approximate inference with quadratic speedup.
 - [[Qubit]] — Fundamental unit of quantum information; superposition, measurement, Dirac notation.
 - [[Quantum Gates]] — Unitary operations on qubits; Pauli gates, Hadamard, CNOT, universality.
+- [[QAOA]] — Quantum Approximate Optimization Algorithm; variational circuit with cost/mixer Hamiltonians for combinatorial optimization.
+- [[Grover's Algorithm]] — Quantum search via oracle and diffusion operator; $O(\sqrt{N/M})$ query complexity, amplitude amplification.
+- [[VQE]] — Variational Quantum Eigensolver; ground state energy estimation for general Hamiltonians via parameterized circuits.
 
 ### Mathematical Statistics
 - [[Method of Moments]] — Parameter estimation by matching population and sample moments.
@@ -78,6 +92,17 @@ updated: 2026-04-06
 - [[Stationary Distributions]] — Equilibrium distributions $\vec{\pi}P = \vec{\pi}$; existence, uniqueness, long-run fractions.
 - [[Recurrence and Transience]] — Return probabilities, hitting times, chain decomposition, absorption.
 - [[Poisson Process]] — Continuous-time counting process; exponential inter-arrivals, merging, thinning, races.
+
+### Quantum Optimization
+- [[QUBO]] — Quadratic Unconstrained Binary Optimization; Ising equivalence, penalty method for constraints.
+- [[Quantum Annealing]] — Adiabatic theorem, interpolating Hamiltonian, D-Wave hardware.
+
+### Quantum Machine Learning
+- [[Quantum Machine Learning]] — Taxonomy (QQ/QC/CQ/CC), data encoding strategies, quantum feature maps.
+- [[Quantum SVM]] — Quantum kernel estimation, circuit-based feature maps, quantum advantage in kernel methods.
+- [[Quantum Neural Network]] — Variational circuits as QNNs, parameter shift rule, data encoding + ansatz.
+- [[Hybrid Quantum-Classical]] — Hybrid QNN architectures; NISQ motivation, quantum-sandwich pattern.
+- [[Quantum GAN]] — Quantum Generative Adversarial Networks; minimax game, Born machines.
 
 ### Deep Learning & Neural Rendering
 - [[Transformer]] — Encoder-decoder architecture based on self-attention; foundation of modern LLMs.
