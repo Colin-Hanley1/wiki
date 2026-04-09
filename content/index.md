@@ -142,3 +142,4 @@ updated: 2026-04-06
 
 ## Analyses
 - [[MATH 451∕551 Exam 2 Study Guide]] — Comprehensive review for Exam 2: CI construction, pivotal quantities, two-sample inference, large-sample methods, hypothesis testing basics.
+- [[QML Exam Study Guide]] — Broad-strokes review of the QML textbook (Ch. 1--12): qubits, gates, QUBO, annealing, QAOA, Grover, VQE, QSVMs, QNNs, hybrid architectures, QGANs.

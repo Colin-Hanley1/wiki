@@ -7,6 +7,9 @@ last-entry: 2026-04-06
 
 # Knowledge Log
 
+## [2026-04-09] analysis | QML Exam Study Guide
+Created broad-strokes study guide covering the full QML textbook (Ch. 1--12). Covers quantum foundations, optimization algorithms (QUBO, annealing, QAOA, Grover, VQE), and QML models (QSVMs, QNNs, hybrid architectures, QGANs). Filed as analysis page. Updated index.
+
 ## [2026-04-06] ingest | SP Textbook Ch. 1 (Markov Chains)
 Ingested Chapter 1 of *Essentials of Stochastic Processes* (Durrett, 2nd ed., 2012). Created 1 source page (Ch. 1 Markov Chains) and 3 concept pages (Detailed Balance, Metropolis-Hastings Algorithm, Exit Distributions and Times) with worked examples. Updated index.
 
